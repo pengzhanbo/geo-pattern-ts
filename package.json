@@ -9,7 +9,7 @@
   "homepage": "https://github.com/pengzhanbo/geo-pattern-ts#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pengzhanbo/geo-pattern-ts"
+    "url": "git+https://github.com/pengzhanbo/geo-pattern-ts.git"
   },
   "keywords": [
     "svg",
