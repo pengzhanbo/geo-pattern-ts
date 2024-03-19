@@ -3,7 +3,7 @@
  *
  * This is a TypeScript port of
  * [jasonlong/geo_pattern](https://github.com/jasonlong/geo_pattern) with a
- * [live preview page](http://geo-pattern.netlify.app).
+ * [live preview page](https://geo-pattern.netlify.app/).
  *
  * ## Usage
  *

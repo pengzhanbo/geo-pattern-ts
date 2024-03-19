@@ -81,11 +81,30 @@ export function generate(input?: string | GeoPatternOptions, options?: GeoPatter
 }
 
 export interface GenerateReturn {
+  /**
+   * Gets the pattern's background color as a hexadecimal string.
+   */
   get color(): string
 
+  /**
+   * Gets the SVG string representing the pattern.
+   */
   toSvg: () => string
+  /**
+   * Gets the SVG string representing the pattern.
+   */
   toString: () => string
+  /**
+   * Gets the pattern as a data URL suitable for use as a CSS background-image,
+   * i.e. `url("data:image/svg+xml;base64,PHN2ZyB...").`
+   */
   toDataUrl: () => string
+  /**
+   * Gets the pattern as a data URI, i.e. `data:image/svg+xml;base64,PHN2ZyB....`
+   */
   toDataUri: () => string
+  /**
+   * Gets the SVG as a Base64-encoded string.
+   */
   toBase64: () => string
 }
