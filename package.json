@@ -1,7 +1,7 @@
 {
   "name": "geo-pattern-ts",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "packageManager": "pnpm@8.15.5",
   "description": "Generate beautiful SVG patterns",
   "author": "pengzhanbo <q942450674@outlook.com> (https://github.com/pengzhanbo)",
