@@ -1,0 +1,51 @@
+{
+  "name": "geo-pattern-ts",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Generate beautiful SVG patterns",
+  "author": "pengzhanbo <q942450674@outlook.com> (https://github.com/pengzhanbo)",
+  "license": "MIT",
+  "homepage": "https://github.com/pengzhanbo/geo-pattern-ts#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pengzhanbo/geo-pattern-ts"
+  },
+  "keywords": [
+    "svg",
+    "pattern",
+    "geometric",
+    "background"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "preview:dev": "vite dev preview --config ./preview/vite.config.ts",
+    "preview:build": "vite build preview --config ./preview/vite.config.ts",
+    "build": "tsup",
+    "lint": "eslint .",
+    "prepublishOnly": "pnpm run build",
+    "test": "vitest run --reporter verbose",
+    "release": "bumpp package.json --commit --push --tag && npm publish --access public"
+  },
+  "devDependencies": {
+    "@pengzhanbo/eslint-config": "^1.7.0",
+    "@types/node": "^20.11.29",
+    "bumpp": "^9.4.0",
+    "eslint": "^8.57.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.2",
+    "vite": "^5.1.6",
+    "vitest": "^1.4.0"
+  }
+}

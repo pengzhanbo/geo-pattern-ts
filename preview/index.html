@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geo Pattern</title>
+</head>
+<body>
+  <a href="https://github.com/pengzhanbo/geo-pattern-ts" target="_blank" class="fork">
+    <img src="./src/fork.svg" alt="Fork me on Github">
+  </a>
+  <div class="geo-bg" id="geoBg"></div>
+
+  <main class="container">
+    <div class="content">
+      <h1>Geo Pattern</h1>
+      <section>
+        <p>
+          <input type="text" id="input" name="input" value="">
+        </p>
+        <p>
+          <label for="baseColor">
+            Base Color:
+          </label>
+          <input type="color" id="baseColor" name="baseColor" value="#933c3c">
+        </p>
+        <p>
+          <label for="generator">
+            Generator:
+          </label>
+          <select id="generator" name="generator">
+            <option value="auto">Auto</option>
+          </select>
+        </p>
+        <p>
+          <a type="button" id="save" class="save-btn" download="geo-pattern.png" href="#">Save Pattern Image</a>
+        </p>
+      </section>
+    </div>
+  </main>
+  <script type="module" src="./src/index.ts"></script>
+</body>
+</html>
