@@ -3,7 +3,7 @@
 [![jsr](https://jsr.io/badges/@raise/geo-pattern)](https://jsr.io/@raise/geo-pattern)
 ![jsr score](https://jsr.io/badges/@raise/geo-pattern/score)
 ![gzip size](https://img.badgesize.io/https:/unpkg.com/geo-pattern-ts/dist/index.js?label=gzip%20size&compression=gzip)
-![License](https://github.com/pengzhanbo/geo-pattern-ts/blob/main/LICENSE)
+[![MIT](https://img.shields.io/npm/l/@pengzhanbo/geo-pattern-ts)](https://github.com/pengzhanbo/geo-pattern-ts/blob/main/LICENSE)
 
 This is a TypeScript port of [jasonlong/geo_pattern](https://github.com/jasonlong/geo_pattern) with a
 [live preview page](http://btmills.github.io/geopattern/).
